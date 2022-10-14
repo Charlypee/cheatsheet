@@ -17,9 +17,9 @@ EOL
 execute command - sudo update-alternatives --config java ( select which ever java version you need )
 
 ## Java 11 ( open JDK )
-- sudo add-apt-repository ppa:openjdk-r/ppa
+**- sudo add-apt-repository ppa:openjdk-r/ppa
 - sudo apt-get update
-- sudo apt install openjdk-11-jdk
+- sudo apt install openjdk-11-jdk**
 
 
 ## JAVA 11 installation in ubuntu 16.04
@@ -81,7 +81,7 @@ for more details - https://tecadmin.net/install-oracle-java-11-on-ubuntu-16-04-x
  
  For more details https://tecadmin.net/install-apache-maven-on-ubuntu/ 
  
- easy way to install - sudo apt install maven
+ easy way to install - **sudo apt install maven**
  
    
  ## Docker installation in ubuntu 16.04
