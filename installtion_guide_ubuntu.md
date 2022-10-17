@@ -200,6 +200,7 @@ for more deatils refer - https://techexpert.tips/sonarqube/sonarqube-installatio
 docker run -d -p 9000:9000 sonarqube:lts
 ```
 
+- mvn sonar:sonar -Dsonar.host.url=http://<sonar-host>:9000/ -Dsonar.login=<user nam> -Dsonar.password=<pwd>
 ## JFROG Artifactory installation in ubuntu 16.04 using docker container 
 
  - export JFROG_HOME= /set/some/path
