@@ -10,7 +10,7 @@ yum install java-1.8.0-openjdk
 
 ### install nexus 
 
-- apt-get install wget ( install if you dont have wget )
+- yum install wget ( install if you dont have wget )
 - java -version ( make sure java is installed which should be java 8 or higher version )
 - wget https://download.sonatype.com/nexus/3/latest-unix.tar.gz
 - tar -xvf latest-unix.tar.gz
