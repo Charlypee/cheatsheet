@@ -274,7 +274,8 @@ Then to verify use below commands
  - To access this use http://ip_Address:8081 ( by deafault which will be running on 8081)
  
   ``` intial password will be present in /opt/sonatype-work/nexus3/admin.password ```
-  Using Docker
+  
+	Using Docker
 	docker run -d -p 8081:8081 --name nexus sonatype/nexus3
 	
  ## Helm Installation in ubuntu 16.04
